@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickSend(View view) {
         String value = et.getText().toString();
-        Toast.makeText(this,"Hello "+value,Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"Hello : "+value,Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
