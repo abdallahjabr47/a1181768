@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#245E8C"
+    android:orientation="vertical"
+    tools:context=".Teams.BalataActivity">
+
+    <ImageView
+        android:id="@+id/txtMsg5"
+        android:layout_width="wrap_content"
+        android:layout_height="207dp"
+        android:background="@drawable/balata" />
+
+    <TextView
+        android:id="@+id/txtMsg3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="Balata Center"
+        android:textColor="@android:color/white"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMsg2"
+        android:layout_width="match_parent"
+        android:layout_height="388dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="As the public calls it Al-Jadaan, it is a sports, cultural and social club that was established in 1954 in the Balata refugee camp, which is located on the land of the city of Nablus.
+The club seeks to develop youth in Balata camp and its suburbs and provide education, training, and skills-up services, and be the main supporter of all sports, cultural, social, and scouting activities at the camp level, It won several championships, including the Kingdom Championship and the Palestine Cup twice in 1996 and 2019, on the cup of the martyr Yasser Arafat in the year 2017."
+        android:textColor="@android:color/white"
+        android:textSize="8pt" />
+
+</LinearLayout>

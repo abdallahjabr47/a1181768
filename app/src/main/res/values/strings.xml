@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">a1181768</string>
+    <string name="a_center">a Center</string>
+    <string name="please_choose_barcelona_because_i_didn_t_make_an_activity_for_madrid">Please choose Barcelona, because i didn\'t make an activity for Madrid!</string>
+    <string name="spain_teams">Spain teams</string>
+    <string name="please_choose_balata_because_i_didn_t_make_an_activity_for_alhilal">Please choose Balata, because i didn\'t make an activity for Alhilal!</string>
+    <string name="palestine_teams">Palestine teams</string>
+    <string name="please_choose_milan_because_i_didn_t_make_an_activity_for_roma">Please choose Milan, because i didn\'t make an activity for Roma!</string>
+    <string name="italy_teams">Italy teams</string>
+    <string name="please_choose_arsenal_because_i_didn_t_make_an_activity_for_man_city">Please choose Arsenal, because i didn\'t make an activity for Man City!</string>
+    <string name="england_teams">England teams</string>
+</resources>

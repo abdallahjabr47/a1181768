@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".Teams.MilanActivity">
+
+    <ImageView
+        android:id="@+id/txtMsg5"
+        android:layout_width="wrap_content"
+        android:layout_height="207dp"
+        android:background="@drawable/milan" />
+
+    <TextView
+        android:id="@+id/txtMsg3"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:text="Milan"
+        android:textColor="@android:color/white"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMsg2"
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="It is a professional Italian football club, founded on December 16, 1899. AC Milan plays its official matches at the San Siro stadium.
+AC Milan is one of the most successful clubs in the world, winning 18 European and international titles. Milan won the Champions League 7 times, won the Club World Cup 4 times, won the European Super Cup 5 times, and won twice. With the European Cup Winners' Cup, he also won the Italian League title 18 times, the Italian Cup five times and the Italian Super Cup seven times."
+        android:textColor="@android:color/white"
+        android:textSize="8pt" />
+
+</LinearLayout>

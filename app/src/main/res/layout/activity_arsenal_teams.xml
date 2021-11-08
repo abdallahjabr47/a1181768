@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AA3636"
+    android:orientation="vertical"
+    tools:context=".Teams.ArsenalActivity">
+
+    <ImageView
+        android:id="@+id/txtMsg5"
+        android:layout_width="wrap_content"
+        android:layout_height="207dp"
+        android:background="@drawable/arsenal" />
+
+    <TextView
+        android:id="@+id/txtMsg3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="Arsenal"
+        android:textColor="@android:color/white"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMsg2"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="Arsenal is a professional football club, founded in 1886, in north London, where it plays in the English Premier League and is one of the four big clubs in England. It has won the English Premier League title 13 times, the FA Cup 14 times, and once The European Cup Winners' Cup has many cups."
+        android:textColor="@android:color/white"
+        android:textSize="8pt" />
+
+</LinearLayout>

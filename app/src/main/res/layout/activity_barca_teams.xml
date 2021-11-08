@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8E1624"
+    android:orientation="vertical"
+    tools:context=".Teams.BarcaActivity">
+
+    <ImageView
+        android:id="@+id/txtMsg5"
+        android:layout_width="wrap_content"
+        android:layout_height="207dp"
+        android:background="@drawable/barcelona" />
+
+    <TextView
+        android:id="@+id/txtMsg3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="Barcelona"
+        android:textColor="@android:color/white"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMsg2"
+        android:layout_width="match_parent"
+        android:layout_height="339dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="Founded in November 1899, FC Barcelona is one of the most successful clubs in the history of Spanish football in terms of the number of domestic championships. It has won twenty-six league titles, a record Spanish Cup with thirty-one titles, and thirteen Spanish Super Cup titles. And two in the League Cup, and it is also one of the most successful clubs in the history of European football at the level of European championships, as it achieved 17 European continental titles by winning the Champions League five times, and 4 times in the European Union Cup for Club Cup Winners, and 5 times in the European Super Cup, in addition to obtaining He won the Club World Cup three times."
+        android:textColor="@android:color/white"
+        android:textSize="7pt" />
+
+</LinearLayout>
